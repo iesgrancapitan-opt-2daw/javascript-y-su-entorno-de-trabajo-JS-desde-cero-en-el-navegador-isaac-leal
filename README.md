@@ -142,11 +142,11 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
 13. Cuándo se usa JavaScript puro y cuándo se usan frameworks o librerías como REACT?
     Se usa JS puro cuando se está creando sitios pequeños, estáticos, sencillos... Se usan frameworks cuando se construyen páginas complejas, dinámicas y consistentes con sus diferentes secciones
 15. Cómo se define una función en JS
-    ```
+    ```javascript
     function nombre(par1, par2){
       return par1+par2
     }
-    ```javascript
+    ```
 17. Sobre el código demuestra la diferencia entre let y const
     Let se podrá modificar más tarde, const tira error al modificarlo, ya que se usa para constantes
 19. Indica en el código:
