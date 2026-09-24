@@ -128,15 +128,28 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
 ## Parte 6: Preguntas de reflexión
 
 1. ¿Qué hace `console.log`?
-2. ¿Qué ocurre si cambias el valor de la variable desde la consola? ¿Se puede?
-3. ¿Para qué sirve la consola del navegador en este contexto?
-4. Para qué sirve el archivo HTML en este contexto?
-5. ¿Por qué es una buena práctica separar el código JavaScript del HTML?
-6. Por qué se llama Vanilla JavaScript?
-7. Cuándo se usa JavaScript puro y cuándo se usan frameworks o librerías como REACT?
-8. Cómo se define una función en JS
-9. Sobre el código demuestra la diferencia entre let y const
-10. Indica en el código:
+   Imprime o muestra información en la consola de desarrollador del navegador
+3. ¿Qué ocurre si cambias el valor de la variable desde la consola? ¿Se puede?
+   Sí se puede, su valor cambiará en la memoria de la aplicación
+5. ¿Para qué sirve la consola del navegador en este contexto?
+   Debugging, pruebas e inspección de datos
+7. Para qué sirve el archivo HTML en este contexto?
+   Para darle al archivo JavaScript algo sobre lo que trabajar
+9. ¿Por qué es una buena práctica separar el código JavaScript del HTML?
+    Orden, legibilidad, rendimiento y reutilización de código
+11. Por qué se llama Vanilla JavaScript?
+    El helado de vainilla es el básico, entonces el Vanilla Javascript es el Javascript básico, sin modificaciones
+13. Cuándo se usa JavaScript puro y cuándo se usan frameworks o librerías como REACT?
+    Se usa JS puro cuando se está creando sitios pequeños, estáticos, sencillos... Se usan frameworks cuando se construyen páginas complejas, dinámicas y consistentes con sus diferentes secciones
+15. Cómo se define una función en JS
+    ```
+    function nombre(par1, par2){
+      return par1+par2
+    }
+    ```javascript
+17. Sobre el código demuestra la diferencia entre let y const
+    Let se podrá modificar más tarde, const tira error al modificarlo, ya que se usa para constantes
+19. Indica en el código:
    1. Si puede evitarse el uso de let. Qué hace
    2. Cuántos eventos hay en el código, cuáles son y para qué sirven
 
