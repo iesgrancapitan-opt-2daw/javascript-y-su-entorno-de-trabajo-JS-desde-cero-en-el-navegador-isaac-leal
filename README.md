@@ -151,7 +151,9 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
     Let se podrá modificar más tarde, const tira error al modificarlo, ya que se usa para constantes
 19. Indica en el código:
    1. Si puede evitarse el uso de let. Qué hace
-   2. Cuántos eventos hay en el código, cuáles son y para qué sirven
+      En hola.html se podría evitar usando tanto como var como const en vez de let
+   3. Cuántos eventos hay en el código, cuáles son y para qué sirven
+      En formulario.html hay
 
 
 
